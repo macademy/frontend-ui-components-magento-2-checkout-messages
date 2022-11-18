@@ -28,7 +28,9 @@
         <!--/ko-->
     </div>
 
-    <div class="opc-block-shipping-information" data-bind="scope: requestChild('shippingTime')">
+    <div class="opc-block-shipping-information">
+        <!-- ko foreach: getRegion('extra') -->
         <!-- ko template: getTemplate() --><!-- /ko -->
+        <!-- /ko -->
     </div>
 </div>
