@@ -28,7 +28,7 @@
         <!--/ko-->
     </div>
 
-    <div class="opc-block-shipping-information">
-        <div translate="'Orders are typically shipped within 48 hours.'"/>
+    <div class="opc-block-shipping-information" data-bind="scope: requestChild('shippingTime')">
+        <!-- ko template: getTemplate() --><!-- /ko -->
     </div>
 </div>
