@@ -19,6 +19,7 @@
                                                         <item name="0" xsi:type="string">checkout.sidebar.guarantee</item>
                                                         <item name="1" xsi:type="string">checkout.sidebar.summary</item>
                                                     </item>
+                                                    <item name="shippingAddressProvider" xsi:type="string">checkoutProvider:shippingAddress</item>
                                                 </item>
                                             </item>
                                             <item name="guarantee" xsi:type="array">
